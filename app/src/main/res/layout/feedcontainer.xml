@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    >
+<Button
+    android:id="@+id/btnapp"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginStart="20dp"
+    android:background="@drawable/round_butt"
+    android:text="OFF"
+    android:textStyle="bold"
+    android:layout_marginTop="5dp"
+    android:textSize="20dp"
+    />
+    <TextView
+        android:id="@+id/feedname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/btnapp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:hint="Hello"
+        android:textAlignment="center"
+
+        />
+
+</RelativeLayout>

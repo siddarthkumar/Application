@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "841339730179",
+    "firebase_url": "https://morphine-c6720.firebaseio.com",
+    "project_id": "morphine-c6720",
+    "storage_bucket": "morphine-c6720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841339730179:android:0ea750a2f249aba7901136",
+        "android_client_info": {
+          "package_name": "com.example.morphine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841339730179-0jeaf9mojt4fkie82u6qrm45sgje0nn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.morphine",
+            "certificate_hash": "bb0d19578be827c995b7d3da3577b143d4c6b255"
+          }
+        },
+        {
+          "client_id": "841339730179-7khtufb4uvnlv5oh6chqmbr84e249b05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAX2Ohcu25UrCjBaFHXj9PoekCHVpycho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841339730179-7khtufb4uvnlv5oh6chqmbr84e249b05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

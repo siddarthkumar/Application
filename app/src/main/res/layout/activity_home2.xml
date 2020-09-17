@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/rout"
+        android:layout_width="324dp"
+        android:layout_height="58dp"
+        android:background="@drawable/routine"
+        android:fontFamily="@font/amarante"
+        android:text="  Set Up a Routine ?"
+        android:textColor="#ffffff"
+        android:onClick="routinpage"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="303dp"
+        android:layout_height="62dp"
+        android:background="@drawable/spinner"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="63dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/amarante"
+        android:text="OR"
+        android:textColor="#000000"
+        android:textFontWeight="25"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254" />
+
+    <TextView
+        android:id="@+id/choice"
+        android:layout_width="331dp"
+        android:layout_height="67dp"
+        android:background="@drawable/choose"
+        android:fontFamily="@font/amarante"
+        android:text="   Choose to Control"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <Switch
+        android:id="@+id/switc"
+        android:layout_width="166dp"
+        android:layout_height="50dp"
+        android:background="@drawable/switchr"
+        android:fontFamily="@font/amarante"
+        android:text="ON/OFF"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <Button
+        android:id="@+id/applet"
+        android:layout_width="324dp"
+        android:layout_height="58dp"
+        android:background="@drawable/applet"
+        android:fontFamily="@font/amarante"
+        android:text="My Scheduled Routines"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

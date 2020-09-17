@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Routinnepage">
+
+
+    <TextView
+        android:id="@+id/onside"
+        android:layout_width="342dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="480dp"
+        android:fontFamily="@font/amarante"
+        android:text="Bravo! Now Trigger your tasks Automatically everyday or at Time Intervals you want them to happen .Set a Schedule for them so you won't have to do them your self!"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="369dp"
+        android:layout_height="362dp"
+        android:numbersBackgroundColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/tvs"
+        android:layout_width="357dp"
+        android:layout_height="59dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/amarante"
+        android:text="      Pick the Time"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/set_alarm"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:background="@drawable/scheduler"
+        android:fontFamily="@font/amarante"
+        android:onClick="popupandside"
+        android:text="Schedule"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <Spinner
+        android:id="@+id/Device"
+        android:layout_width="129dp"
+        android:layout_height="46dp"
+        android:background="@drawable/feedbutt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <Switch
+        android:id="@+id/tog"
+        android:layout_width="98dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/amarante"
+        android:text="On/Off"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" /><![CDATA[
+
+
+
+
+
+    />
+
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>

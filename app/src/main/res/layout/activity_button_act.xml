@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Button_act">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/btntool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff8000"
+        >
+        <TextView
+            android:id="@+id/controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Controller"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="130dp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:id="@+id/lower"
+        android:layout_below="@+id/btntool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#202020"
+        >
+<TextView
+    android:id="@+id/masterlabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textSize="20dp"
+    android:textColor="#fff"
+    android:text="Master Control"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    />
+
+        <Button
+            android:id="@+id/master"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/masterlabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/arbutus"
+            android:text="OFF"
+            android:background="#ffff33"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listfeeds"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/master"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
